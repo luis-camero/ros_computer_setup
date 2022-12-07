@@ -7,7 +7,7 @@
 # Install ZED SDK
 wget https://download.stereolabs.com/zedsdk/3.8/cu117/ubuntu20 -O ZED_SDK.run
 sudo chmod +x ZED_SDK.run
-./ZED_SDK.run
+./ZED_SDK.run -- silent
 
 # Clone and Build zed-ros-wrapper
 ws_path="$HOME/catkin_ws"
