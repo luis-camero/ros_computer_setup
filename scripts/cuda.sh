@@ -47,7 +47,7 @@ echo -e "...Done"
 # Install CUDA
 echo -e "\nUpdate:"
 sudo apt-get update
-if [ $cuda_version == "" ];
+if [ "$cuda_version" == "" ];
 then
     cuda_package="cuda"
 else
